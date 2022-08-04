@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin:0%;
+    padding: 0%;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo .logo-img{
+    border: 2px solid silver;
+    padding: 5px;
+    border-radius: 15px;
+}
+.logo .logo-img img{
+    width: 60px;
+    height: 60px;
+}
+
+.logo .logo-name{
+    margin-left: 20px;
+}
+
+.icons a{
+    text-decoration: none;
+    margin: 0px 10px;
+}
+
+
+.num-one, .num-two, .num-three{
+    height: 30px;
+    width: 30px;
+    color: blue;
+}
+
+.circle .border{
+    border-radius: 50%;
+}
+
+.img-phone{
+    display: flex;
+    justify-content: center;
+}
+.avatar{
+    display: flex;
+    align-items: center;
+}
+
+.avatar .avatar-icon img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+
+.phone{
+    width: auto;
+    height: 600px;
+}
+
+.bottom{
+    background:linear-gradient(white,white,rgba(192, 192, 192,0.2));
+}
+
+.phone2{
+    width: auto;
+    height: 600px;
+}
+
+
+
+
+
+.icon10{
+    vertical-align: sub;
+}
+
+
+/* .fa-google-play{font-size:1.7em} */
+
+.separator{
+    display: flex;
+    align-items: center;
+  }
+  
+  .separator h4{
+    padding: 0 2rem; /* creates the space */
+    color: silver;
+  }
+  
+  .separator .line{
+    flex: 1;
+    height: 2px;
+    background-color: silver;
+  }
+
+
